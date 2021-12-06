@@ -1,0 +1,11 @@
+/log
+/build
+/install
+
+/host/build/
+/host/install/
+/host/log/
+
+/firmware/dev_ws/
+/firmware/mcu_ws/
+/firmware/bin/*
