@@ -5,8 +5,6 @@ env ROS_DISTRO foxy
 # for source command
 SHELL ["/bin/bash", "-c"]
 
-RUN source /opt/ros/${ROS_DISTRO}/setup.bash
-
 # microros
 WORKDIR /extern
 RUN git clone  -b ${ROS_DISTRO} https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
