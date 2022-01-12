@@ -1,0 +1,3 @@
+[submodule "firmware/raspbian_apps"]
+	path = firmware/raspbian_apps
+	url = git@github.com:meganetaaan/raspbian_apps.git
