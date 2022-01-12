@@ -16,5 +16,4 @@ RUN apt-get update \
   && apt-get clean && rm -rf /var/lib/opt/lists/*
 
 RUN source /opt/ros/${ROS_DISTRO}/setup.bash \
-  && colcon build \
-  && source install/local_setup.bash
+  && colcon build
